@@ -1,4 +1,4 @@
-# LGD: Lightweight Model Pre-training via Language Guided Knowledge Distillation (T-MM 2024)
+# Lightweight Model Pre-training via Language Guided Knowledge Distillation (T-MM 2024)
 
 
 
