@@ -5,7 +5,7 @@
 
 
 
-## 🏃 Intro LGD
+## 🏃 Intro
 
 <details open="open">
     <summary><b>Abstract</b></summary>
