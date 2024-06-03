@@ -12,7 +12,7 @@
 
 This paper studies the problem of pre-training for small models, which is essential for many mobile devices. Current state-of-the-art methods on this problem transfer the representational knowledge of a large network (as a Teacher) into a smaller model (as a Student) using self-supervised distillation, improving the performance of the small model on downstream tasks. However, existing approaches are insufficient in extracting the crucial knowledge that is useful for discerning categories in downstream tasks during the distillation process. In this paper, for the first time, we introduce language guidance to the distillation process and propose a new method named Language-Guided Distillation (LGD) system, which uses category names of the target downstream task to help refine the knowledge transferred between the teacher and student. %build a textual semantics bank (TSB) and visual semantics bank (VSB). To this end, we utilize a pre-trained text encoder to extract semantic embeddings from language and construct a textual semantic space called Textual Semantics Bank (TSB). Furthermore, we design a Language-Guided Knowledge Aggregation (LGKA) module to construct the visual semantic space, also named Visual Semantics Bank (VSB). The task-related knowledge is transferred by driving a student encoder to mimic the similarity score distribution inferred by a teacher over TSB and VSB. Compared with other small models obtained by either ImageNet pre-training or self-supervised distillation, experiment results show that the distilled lightweight model using the proposed LGD method presents state-of-the-art performance and is validated on various downstream tasks, including classification, detection, and segmentation.
 
-![pipeline](assets/LGD.pdf)
+![pipeline](assets/LGD.png)
 
 </details>
 
@@ -22,7 +22,7 @@ This paper studies the problem of pre-training for small models, which is essent
 
 - 2024-06. 🎉 Our [LGD](), a new method for lightweight model pre-training, is accepted to T-MM 2024.
 
-![pipeline](assets/result.png)
+![result](assets/result.png)
 
 ## ⚡ Set up
 <details>
