@@ -1,0 +1,17 @@
+python3 -m torch.distributed.launch --nproc_per_node=8 main.py \
+        --distributed True \
+        --dataset imagenet \
+        --text imagenet \
+        -a resnet18 \
+        -k resnet50 \
+        --dim 1024 \
+        --lr 0.03 \
+        --batch-size 2048 \
+        --momen 0.999 \
+        --epochs 200 \
+        --temp 0.2 \
+        --distill-t 0.01 \
+        --val-interval 5 \
+        --workers 4 \
+        --output /your/output/path/ \
+        --data /your/dataset/path/
