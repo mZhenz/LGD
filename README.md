@@ -20,7 +20,7 @@ This paper studies the problem of pre-training for small models, which is essent
 
 - 2024-06. 💥 Code for [LGD](https://arxiv.org/abs/2406.11689) is available now!
 
-- 2024-06. 🎉 Our [LGD](https://arxiv.org/abs/2406.11689), a new method for lightweight model pre-training, is accepted to T-MM 2024.
+- 2024-06. 🎉 Our [LGD](https://arxiv.org/abs/2406.11689), a new method for lightweight model pre-training, is accepted to [T-MM 2024](https://ieeexplore.ieee.org/document/10551493).
 
 ![result](assets/result.png)
 
